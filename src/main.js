@@ -20,6 +20,10 @@ import 'styles/border.css';
 import 'styles/iconfont.css';
 
 
+// 组件
+import 'swiper/dist/css/swiper.css'
+
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
