@@ -20,6 +20,17 @@
     </swiper>
     <!-- pagination -->
     <div class="swiper-pagination" id="pagination1" slot="pagination"></div>
+    <ul class="aside_Option_container border-top">
+      <li class="aside_Option border-right">
+        <span class="icon">&#xe63f;</span>
+        <span>定位失败</span>
+      </li>
+      <li class="aside_Option">
+        <span class="icon">&#xe641;</span>
+        <span>必游榜单</span>
+      </li>
+    </ul>
+    <div class="bigBorder"></div>
   </div>
 </template>
 
@@ -124,50 +135,59 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-@import '~styles/varibles';
+@import '~styles/varibles'
 
-.wrapper >>> .swiper-pagination-bullet {
-  margin: 0 0.1rem;
-  width: 0.1rem;
-  height: 0.1rem;
-}
+.wrapper >>> .swiper-pagination-bullet
+  margin 0 0.1rem
+  width 0.1rem
+  height 0.1rem
 
-.wrapper {
-  height: 0;
-  padding-bottom: 55%;
-}
+.wrapper
+  position relative
+  // height 0
+  // padding-bottom 53%
+  background-color #ffffff
+  border-bottom 0.2rem solid #f5f5f5
 
-.swiper-pagination {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0.1rem auto;
-}
+.swiper-pagination
+  position static
+  margin 0.1rem auto
 
-.nav_item {
-  position: relative;
-  float: left;
-  width: 25%;
-  height: 0;
-  padding-bottom: 1.7rem;
+.nav_item
+  position relative
+  float left
+  width 25%
+  height 0
+  padding-bottom 1.7rem
 
-  .nav_icon {
-    position: absolute;
-    width: 1.1rem;
-    top: 50%;
-    left: 0;
-    right: 0;
-    margin: -0.6rem auto;
-  }
+  .nav_icon
+    position absolute
+    width 1.1rem
+    top 50%
+    left 0
+    right 0
+    margin -0.6rem auto
 
-  .nav_title {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    text-align: center;
-    margin: 0 auto;
+  .nav_title
+    position absolute
+    left 0
+    right 0
+    bottom 0
+    text-align center
+    margin 0 auto
     $nowrapeDot()
-  }
-}
+
+.aside_Option_container
+  display flex
+
+  .aside_Option
+    line-height 1rem
+    width 50%
+    box-sizing border-box
+    text-align center
+    color #212121
+
+    .icon
+      position relative
+      top -0.1rem
 </style>

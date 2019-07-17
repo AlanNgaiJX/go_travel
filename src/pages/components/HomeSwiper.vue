@@ -62,24 +62,20 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-@import '~styles/varibles';
+@import '~styles/varibles'
 
-.wrapper >>> .swiper-pagination-bullet-active {
-  background-color: white;
-}
+.wrapper >>> .swiper-pagination-bullet-active
+  background-color white
 
-.wrapper >>> .swiper-pagination-bullet {
-  background-color: white;
-}
+.wrapper >>> .swiper-pagination-bullet
+  background-color white
 
-.wrapper {
-  height: 0;
-  width: 100%;
-  background-color: $greyBg;
-  padding-bottom: 26.66%;
-}
+.wrapper
+  height 0
+  width 100%
+  background-color $greyBg
+  padding-bottom 26.66%
 
-.swiper_img {
-  width: 100%;
-}
+.swiper_img
+  width 100%
 </style>
