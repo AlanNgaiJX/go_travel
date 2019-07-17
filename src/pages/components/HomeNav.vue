@@ -1,21 +1,25 @@
 <template>
   <div class="wrapper">
-    <!-- :options="swiperOption" -->
-    <!-- @someSwiperEvent="callback" -->
-    <swiper ref="mySwiper">
-      <!-- slides -->
-      <swiper-slide class="navs_container" v-for="(item_handOut_optionList, index_handOut_optionList) in handOut_optionList" :key="index_handOut_optionList">
-        <div class="nav_item" v-for="(nav_item, nav_index) in item_handOut_optionList" :key="nav_item.id">
-          <img
-            class="nav_icon"
-            :src="nav_item.iconImg"
-          />
+    <!-- swiper -->
+    <swiper ref="mySwiper" :options="swiperOption">
+      <!-- slide -->
+      <swiper-slide
+        class="navs_container"
+        v-for="(item_handOut_optionList, index_handOut_optionList) in handOut_optionList"
+        :key="index_handOut_optionList"
+      >
+        <div
+          class="nav_item"
+          v-for="(nav_item, nav_index) in item_handOut_optionList"
+          :key="nav_item.id"
+        >
+          <img class="nav_icon" :src="nav_item.iconImg" />
           <p class="nav_title" v-text="nav_item.option_title"></p>
         </div>
       </swiper-slide>
-      <!-- Optional controls -->
-      <div class="swiper-pagination" slot="pagination"></div>
     </swiper>
+    <!-- pagination -->
+    <div class="swiper-pagination" id="pagination1" slot="pagination"></div>
   </div>
 </template>
 
@@ -30,6 +34,7 @@ export default {
   },
   data() {
     return {
+      // 导航列表数据
       optionsList: [
         {
           id: "0001",
@@ -92,10 +97,16 @@ export default {
             "http://img1.qunarzz.com/piao/fusion/1803/87/a6521252870ea402.png"
         }
       ],
-      swiperOption: ""
+      // Swiper配置参数
+      swiperOption: {
+        pagination: "#pagination1",
+        uniqueNavElements: false,
+        paginationClickable: true
+      }
     };
   },
   computed: {
+    //使用二维数组作为optionsList的载体，实现分页展示
     handOut_optionList() {
       let arrArr = [];
       const pageSize = 8;
@@ -103,7 +114,7 @@ export default {
 
       for (let p = 0; p < pages; p++) {
         arrArr[p] = this.optionsList.filter((item, index) => {
-          return index >= p * pageSize && index < (p+1) * pageSize;
+          return index >= p * pageSize && index < (p + 1) * pageSize;
         });
       }
       return arrArr;
@@ -113,12 +124,32 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+@import '~styles/varibles';
+
+.wrapper >>> .swiper-pagination-bullet {
+  margin: 0 0.1rem;
+  width: 0.1rem;
+  height: 0.1rem;
+}
+
+.wrapper {
+  height: 0;
+  padding-bottom: 55%;
+}
+
+.swiper-pagination {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0.1rem auto;
+}
+
 .nav_item {
   position: relative;
   float: left;
   width: 25%;
   height: 0;
-  padding-bottom: 1.75rem;
+  padding-bottom: 1.7rem;
 
   .nav_icon {
     position: absolute;
@@ -136,9 +167,7 @@ export default {
     bottom: 0;
     text-align: center;
     margin: 0 auto;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
+    $nowrapeDot()
   }
 }
 </style>

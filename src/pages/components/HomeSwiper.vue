@@ -1,7 +1,6 @@
 <template>
   <div class="wrapper">
-    <!-- :options="swiperOption" -->
-    <!-- @someSwiperEvent="callback" -->
+    <!-- swiper -->
     <swiper ref="mySwiper" :options="swiperOption">
       <!-- slides -->
       <swiper-slide v-for="(item, index) in swiperImgs" :key="item.id">
@@ -24,12 +23,11 @@ export default {
   },
   data() {
     return {
+      // Swiper配置参数
       swiperOption: {
-        // some swiper options/callbacks
-        // 所有的参数同 swiper 官方 api 参数
         pagination: ".swiper-pagination",
         loop: true,
-        paginationClickable :true
+        paginationClickable: true
       },
       swiperImgs: [
         {
@@ -64,18 +62,24 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-@import '~styles/varibles'
+@import '~styles/varibles';
 
-.wrapper >>> .swiper-pagination-bullet-active
-    background-color white
-.wrapper >>> .swiper-pagination-bullet
-    background-color white
-.wrapper
-    height 0
-    width 100%
-    background-color $greyBg
-    padding-bottom 26.66%
-.swiper_img
-    width: 100%;
+.wrapper >>> .swiper-pagination-bullet-active {
+  background-color: white;
+}
 
+.wrapper >>> .swiper-pagination-bullet {
+  background-color: white;
+}
+
+.wrapper {
+  height: 0;
+  width: 100%;
+  background-color: $greyBg;
+  padding-bottom: 26.66%;
+}
+
+.swiper_img {
+  width: 100%;
+}
 </style>
