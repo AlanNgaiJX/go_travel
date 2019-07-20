@@ -19,7 +19,9 @@
       </swiper-slide>
     </swiper>
     <!-- pagination -->
-    <div class="swiper-pagination" id="pagination1" slot="pagination"></div>
+    <div class="swiper-pagination" id="pagination_HomeNav" slot="pagination"></div>
+
+    <!-- asideOption -->
     <ul class="aside_Option_container border-top">
       <li class="aside_Option border-right">
         <span class="icon">&#xe63f;</span>
@@ -30,7 +32,7 @@
         <span>必游榜单</span>
       </li>
     </ul>
-    <div class="bigBorder"></div>
+    <!-- <div class="bigBorder"></div> -->
   </div>
 </template>
 
@@ -110,7 +112,7 @@ export default {
       ],
       // Swiper配置参数
       swiperOption: {
-        pagination: "#pagination1",
+        pagination: "#pagination_HomeNav",
         uniqueNavElements: false,
         paginationClickable: true
       }
@@ -144,10 +146,6 @@ export default {
 
 .wrapper
   position relative
-  // height 0
-  // padding-bottom 53%
-  background-color #ffffff
-  border-bottom 0.2rem solid #f5f5f5
 
 .swiper-pagination
   position static

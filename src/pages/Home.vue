@@ -1,9 +1,12 @@
 <template>
-  <div class>
+  <div class="wrapper">
     <HomeHeader></HomeHeader>
     <HomeSwiper></HomeSwiper>
-    <HomeNav></HomeNav>
-    <HomeHot></HomeHot>
+    <HomeNav class="nav"></HomeNav>
+    <HomeHot class="hot"></HomeHot>
+    <HomeRecommend></HomeRecommend>
+    <HomeBlog></HomeBlog>
+    <HomeFooter></HomeFooter>
   </div>
 </template>
 
@@ -11,20 +14,38 @@
 import HomeHeader from "./components/HomeHeader";
 import HomeSwiper from "./components/HomeSwiper";
 import HomeNav from "./components/HomeNav";
-import HomeHot from "./components/HomeHot"
+import HomeHot from "./components/HomeHot";
+import HomeRecommend from "./components/HomeRecommend"
+import HomeBlog from "./components/HomeBlog"
+import HomeFooter from "./components/HomeFooter"
+
+
+import TitleTypeA from "../global_components/TitleTypeA"
+
 export default {
   name: "",
   components: {
     HomeHeader,
     HomeSwiper,
     HomeNav,
-    HomeHot
+    HomeHot,
+    HomeRecommend,
+    HomeBlog,
+    HomeFooter
   },
   data() {
-    return {};
+    return {
+    };
   }
 };
 </script>
 
-<style lang="" scoped>
+<style lang="stylus" scoped>
+@import '~styles/varibles'
+
+.nav
+  border-bottom $slicer
+.hot
+  border-bottom $slicer
+  
 </style>

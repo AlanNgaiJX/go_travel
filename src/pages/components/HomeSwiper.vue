@@ -7,7 +7,7 @@
         <img class="swiper_img" :src="item.src" />
       </swiper-slide>
       <!-- Optional controls -->
-      <div class="swiper-pagination" slot="pagination"></div>
+      <div id="pagination_HomeSwiper" class="swiper-pagination" slot="pagination"></div>
     </swiper>
   </div>
 </template>
@@ -25,7 +25,7 @@ export default {
     return {
       // Swiper配置参数
       swiperOption: {
-        pagination: ".swiper-pagination",
+        pagination: "#pagination_HomeSwiper",
         loop: true,
         paginationClickable: true
       },
