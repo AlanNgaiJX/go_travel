@@ -1,0 +1,288 @@
+{
+    "ret":true,
+    "swiperImgs": [
+        {
+            "id": "0001",
+            "src": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20193/87a224d0349d94a11e97f31aa1aba4f5.jpg_750x200_1f78af87.jpg"
+        },
+        {
+            "id": "0002",
+            "src": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20196/a5d26ebec399b3aef013f45771ae96f0.jpg_750x200_de947eef.jpg"
+        },
+        {
+            "id": "0003",
+            "src": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20197/31a76f3cf484757a14406d63b9a7c595.jpg_750x200_f89ca7f8.jpg"
+        },
+        {
+            "id": "0004",
+            "src": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20197/0b0622e5b6ac5fbed3084dd2832e6f8f.jpg_750x200_895321b6.jpg"
+        },
+        {
+            "id": "0005",
+            "src": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20196/818f6cc784ae6669b74bbbb255414a53.jpg_750x200_66ca5873.jpg"
+        }
+    ],
+    "optionsList": [
+        {
+            "id": "0001",
+            "option_title": "景点门票",
+            "iconImg": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png"
+        },
+        {
+            "id": "0002",
+            "option_title": "故宫",
+            "iconImg": "http://img1.qunarzz.com/piao/fusion/1803/6c/9e54a8540fee0102.png"
+        },
+        {
+            "id": "0003",
+            "option_title": "北京必游",
+            "iconImg": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png"
+        },
+        {
+            "id": "0004",
+            "option_title": "水上乐园",
+            "iconImg": "http://img1.qunarzz.com/piao/fusion/1803/3e/86314b2af03b7502.png"
+        },
+        {
+            "id": "0005",
+            "option_title": "爬长城",
+            "iconImg": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20191/0334cf5430b9b5505fd79e2b8d7e8670.png"
+        },
+        {
+            "id": "0006",
+            "option_title": "古北水镇",
+            "iconImg": "http://img1.qunarzz.com/piao/fusion/1803/67/9a1678221b8e0e02.png"
+        },
+        {
+            "id": "0007",
+            "option_title": "动植物园",
+            "iconImg": "http://img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png"
+        },
+        {
+            "id": "0008",
+            "option_title": "北京野生动物园",
+            "iconImg": "http://img1.qunarzz.com/piao/fusion/1803/fa/2548667cb6e902.png"
+        },
+        {
+            "id": "0009",
+            "option_title": "北京世园会",
+            "iconImg": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20194/b4511345827006994aa1980a3886f0ac.png"
+        },
+        {
+            "id": "0010",
+            "option_title": "考生专享",
+            "iconImg": "http://img1.qunarzz.com/piao/fusion/1803/87/a6521252870ea402.png"
+        }
+    ],
+    "dataList": [
+        {
+            "id": "0001",
+            "title": "北京欢乐谷",
+            "score": 5,
+            "commentCount": "72624",
+            "price": 97,
+            "location": "朝阳区",
+            "detail": "亚洲唯一飞行式过山车等你来挑战",
+            "orderable": true,
+            "imgURL": "http://img1.qunarzz.com/sight/p0/1508/89/895a1b7add84f23faca053ce9e3153db.water.jpg_200x200_99ae30ee.jpg"
+        },
+        {
+            "id": "0002",
+            "title": "古北水镇",
+            "score": 5,
+            "commentCount": "10966",
+            "price": 140,
+            "location": "密云县",
+            "detail": "",
+            "orderable": false,
+            "imgURL": "http://img1.qunarzz.com/sight/p0/1903/5d/5dcaf453dfd6f5dba3.img.jpg_200x200_51d03f19.jpg"
+        },
+        {
+            "id": "0003",
+            "title": "故宫",
+            "score": 5,
+            "commentCount": "428064",
+            "price": 60,
+            "location": "东城区",
+            "detail": "世界五大宫之首，穿越与您近在咫尺",
+            "orderable": false,
+            "imgURL": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_200x200_1bc99086.jpg"
+        },
+        {
+            "id": "0004",
+            "title": "八达岭长城",
+            "score": 5,
+            "commentCount": "55092",
+            "price": 40,
+            "location": "延庆县",
+            "detail": "不到长城非好汉",
+            "orderable": false,
+            "imgURL": "http://img1.qunarzz.com/sight/p0/1708/2b/2b3b94de99c0a425a3.img.jpg_200x200_2458ffb2.jpg"
+        },
+        {
+            "id": "0005",
+            "title": "北京动物园",
+            "score": 5,
+            "commentCount": "8805",
+            "price": 165,
+            "location": "西城区",
+            "detail": "",
+            "orderable": false,
+            "imgURL": "http://img1.qunarzz.com/sight/p0/201308/08/41150dacc0e3a0c8c8d65eac.jpg_200x200_c62292e9.jpg"
+        },
+        {
+            "id": "0006",
+            "title": "大望京儿童游乐园",
+            "score": 5,
+            "commentCount": "35",
+            "price": 69,
+            "location": "大望京公园",
+            "detail": "",
+            "orderable": false,
+            "imgURL": "http://img1.qunarzz.com/sight/p0/1509/f9/f9cc067524ca03f6.water.jpg_200x200_670fe0a2.jpg"
+        },
+        {
+            "id": "0007",
+            "title": "金瓯凤山温泉",
+            "score": 5,
+            "commentCount": "785",
+            "price": 248,
+            "location": "昌平区",
+            "detail": "",
+            "orderable": true,
+            "imgURL": "http://img1.qunarzz.com/sight/p0/1510/8e/8eea8eb6f41698290.img.jpg_200x200_595cfa1d.jpg"
+        },
+        {
+            "id": "0008",
+            "title": "恭王府",
+            "score": 5,
+            "commentCount": "35998",
+            "price": 28,
+            "location": "西城区",
+            "detail": "一座恭王府，半部清代史",
+            "orderable": false,
+            "imgURL": "http://img1.qunarzz.com/sight/p0/201405/12/51b63883c25f5d87af3c08bb016e2bd7.jpg_200x200_8eb33f07.jpg"
+        },
+        {
+            "id": "0009",
+            "title": "什刹海",
+            "score": 5,
+            "commentCount": "3744",
+            "price": 10,
+            "location": "西城区",
+            "detail": "",
+            "orderable": false,
+            "imgURL": "http://img1.qunarzz.com/sight/p0/1603/85/85c883189bf7293390.water.jpg_200x200_3165123d.jpg"
+        },
+        {
+            "id": "0010",
+            "title": "京东石林峡",
+            "score": 5,
+            "commentCount": "2794",
+            "price": 58,
+            "location": "平谷区",
+            "detail": "谷内山峰挺立峭拔，天上美景落人间",
+            "orderable": false,
+            "imgURL": "http://img1.qunarzz.com/sight/p0/1604/78/78873494f26e554090.water.jpg_200x200_331422ad.jpg"
+        }
+    ],
+    "hotList": [
+        {
+            "id": "001",
+            "title": "故宫",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_250x250_0fc722c0.jpg",
+            "price": "60.00"
+        },
+        {
+            "id": "002",
+            "title": "八达岭长城",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1708/2b/2b3b94de99c0a425a3.img.jpg_250x250_50c99cf3.jpg",
+            "price": "40.00"
+        },
+        {
+            "id": "003",
+            "title": "颐和园",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1505/d2/d274c92de14c93da.water.jpg_250x250_d852635b.jpg",
+            "price": "37.80"
+        },
+        {
+            "id": "004",
+            "title": "圆明园",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1505/f5/f5f45e1a83537bcb.water.jpg_250x250_63e3520a.jpg",
+            "price": "25.00"
+        },
+        {
+            "id": "005",
+            "title": "北京世界园艺博览会",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1902/84/84696f368bbec10da3.img.jpg_250x250_3588bc9a.jpg",
+            "price": "108.00"
+        },
+        {
+            "id": "006",
+            "title": "什刹海",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1603/85/85c883189bf7293390.water.jpg_250x250_090a42b6.jpg",
+            "price": "10.00"
+        },
+        {
+            "id": "007",
+            "title": "怀北高山漂流",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1705/7b/7bc3480c17245bd3a3.img.jpg_250x250_397be0d7.jpg",
+            "price": "118.00"
+        },
+        {
+            "id": "008",
+            "title": "北京欢乐谷",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1508/89/895a1b7add84f23faca053ce9e3153db.water.jpg_250x250_6c4c9885.jpg",
+            "price": "98.00"
+        },
+        {
+            "id": "009",
+            "title": "恭王府",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/201405/12/51b63883c25f5d87af3c08bb016e2bd7.jpg_250x250_6ec2f798.jpg",
+            "price": "28.50"
+        },
+        {
+            "id": "010",
+            "title": "京东石林峡",
+            "imgUrl": "http://img1.qunarzz.com/sight/p0/1604/78/78873494f26e554090.water.jpg_250x250_0565d534.jpg",
+            "price": "58.00"
+        }
+    ],
+    "badge": [
+        "http://img1.qunarzz.com/piao/fusion/1710/ab/159673b63e6ca702.png",
+        "http://img1.qunarzz.com/piao/fusion/1710/2d/36d0c4adaebbbc02.png",
+        "http://img1.qunarzz.com/piao/fusion/1710/67/edc47ffef9e96b02.png"
+    ],
+    "BlogList": [
+        {
+            "id": "0001",
+            "title": "京城周末撒欢",
+            "detail": "在帝都过周末，不仅仅是城中游！",
+            "imgURL": "http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg"
+        },
+        {
+            "id": "0002",
+            "title": "京城溜娃必去",
+            "detail": "德智体美劳全面发展的亲子日，这些地方该去看看…",
+            "imgURL": "http://img1.qunarzz.com/sight/source/1811/7e/476589267ebb41.jpg_r_640x214_bf599709.jpg"
+        },
+        {
+            "id": "0003",
+            "title": "帝都必打卡",
+            "detail": "来北京必去的景点非这些地方莫属",
+            "imgURL": "http://img1.qunarzz.com/sight/source/1505/aa/7baaf8a851d221.jpg_r_640x214_1431200f.jpg"
+        },
+        {
+            "id": "0004",
+            "title": "漂流勇进，烧烤露营",
+            "detail": "轻松水上漂，任我乐逍遥",
+            "imgURL": "http://img1.qunarzz.com/sight/source/1606/85/c6b6bad1b977e.jpg_r_640x214_5c638941.jpg"
+        },
+        {
+            "id": "0005",
+            "title": "北京清凉避暑胜地",
+            "detail": "到大自然中享受“天然空调”的清凉",
+            "imgURL": "http://img1.qunarzz.com/sight/source/1505/53/02091f1ee43d0a.jpg_r_640x214_2e3256b1.jpg"
+        }
+    ]
+}
