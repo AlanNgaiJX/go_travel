@@ -12,13 +12,13 @@
 
 <script>
 import axios from 'axios';
-import HomeHeader from "./components/HomeHeader";
-import HomeSwiper from "./components/HomeSwiper";
-import HomeNav from "./components/HomeNav";
-import HomeHot from "./components/HomeHot";
-import HomeRecommend from "./components/HomeRecommend";
-import HomeBlog from "./components/HomeBlog";
-import HomeFooter from "./components/HomeFooter";
+import HomeHeader from "./components_Home/HomeHeader";
+import HomeSwiper from "./components_Home/HomeSwiper";
+import HomeNav from "./components_Home/HomeNav";
+import HomeHot from "./components_Home/HomeHot";
+import HomeRecommend from "./components_Home/HomeRecommend";
+import HomeBlog from "./components_Home/HomeBlog";
+import HomeFooter from "./components_Home/HomeFooter";
 
 import TitleTypeA from "../global_components/TitleTypeA";
 

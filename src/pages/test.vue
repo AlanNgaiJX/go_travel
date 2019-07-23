@@ -1,17 +1,17 @@
 <template>
   <div class="">
-      <!-- <stars :stars="stars"></stars> -->
-      <BlogItem></BlogItem>
+    <LocationPagenation></LocationPagenation>
   </div>
 </template>
 
 <script>
 import Stars from "../global_components/Stars"
 import BlogItem from "../global_components/BlogItem"
+import LocationPagenation from "./components_Location/LocationPagenation"
 export default {
   name: '',
   components:{
-      Stars,BlogItem
+      Stars,BlogItem,LocationPagenation
   },
   data() { 
     return {
